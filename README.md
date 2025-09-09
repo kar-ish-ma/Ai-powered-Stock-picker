@@ -26,7 +26,7 @@ It simulates a **financial analyst team** with specialized AI agents that work t
 
 
 
-## 🧑‍💻 How It Works
+##  How It Works
 
 The Stock Picker system follows a **multi-step AI workflow**:  
 
@@ -66,7 +66,7 @@ The Stock Picker system follows a **multi-step AI workflow**:
 
 
 
-###  Task Flow Diagram
+##  Task Flow Diagram
 flowchart TD
     A[Find Trending Companies] --> B[Research Trending Companies]
     B --> C[Pick Best Company]
