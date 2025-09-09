@@ -36,7 +36,7 @@ The Stock Picker system follows a **multi-step AI workflow**:
 - Task: Search the latest news in the selected sector.  
 - Output: `output/trending_companies.json` (list of companies + tickers + reasons for trending).  
 
----
+
 
 ### 2. **Research Trending Companies**
 - Agent: `Financial Researcher`  
