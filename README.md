@@ -9,7 +9,7 @@ It simulates a **financial analyst team** with specialized AI agents that work t
 -  **Stock Picker** makes the final call and notifies the user.  
 -  **Manager Agent** coordinates the entire workflow.  
 
----
+
 
 ##  Key Features
 
@@ -24,7 +24,7 @@ It simulates a **financial analyst team** with specialized AI agents that work t
 -  **Configurable via YAML** – Agents, roles, and tasks are fully customizable.  
 - **Transparent Outputs** – JSON and Markdown reports generated for each step.  
 
----
+
 
 ## 🧑‍💻 How It Works
 
@@ -48,7 +48,7 @@ The Stock Picker system follows a **multi-step AI workflow**:
   - Investment potential  
 - Output: `output/research_report.json` (comprehensive research report).  
 
----
+
 
 ### 3. **Pick Best Company**
 - Agent: `Stock Picker`  
@@ -58,13 +58,13 @@ The Stock Picker system follows a **multi-step AI workflow**:
   - Sends a **push notification** with 1-sentence rationale.  
   - Generates `output/decision.md` (detailed explanation of decision).  
 
----
+
 
 ### 4. **Manager Oversight**
 - Agent: `Manager`  
 - Role: Oversees the workflow, delegates tasks, ensures smooth execution.  
 
----
+
 
 ###  Task Flow Diagram
 flowchart TD
